@@ -64,3 +64,27 @@ body{
 }
 
 /* about product */ 
+.about-product{
+    width: 100%; 
+    padding-top: 50px; 
+    margin-left: 50px; 
+    font-family: "Arial";
+}
+
+.about-product-wrap{
+    float: left; 
+    width: 650px; 
+    margin-right: 50px; 
+}
+
+.about-product-wrap h1{
+    font-size: 30px; 
+    margin-bottom: 25px; 
+    font-family: inherit;
+}
+
+.about-product-wrap p{
+    line-height: 24px;
+    margin-bottom: 11px; 
+}
+
