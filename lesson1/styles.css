@@ -65,16 +65,18 @@ body{
 
 /* about product */ 
 .about-product{
-    width: 100%; 
     padding-top: 50px; 
-    margin-left: 50px; 
+     padding-left: 50px; 
+    padding-bottom: 50px; 
     font-family: "Arial";
+    background-color: #FFF;
+     
 }
 
 .about-product-wrap{
     float: left; 
     width: 650px; 
-    margin-right: 50px; 
+     
 }
 
 .about-product-wrap h1{
@@ -88,4 +90,44 @@ body{
     margin-bottom: 11px; 
 }
 
+ .about-product-img{
+     margin-left:30px; 
+ }
+
+
+
 /* dignity */ 
+.dignity{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items:center; 
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: #F5F5F5;;
+    
+}
+
+.dignity-title{
+ margin: 30px auto; 
+}
+
+.dignity-list{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+    width: 90%; 
+}
+
+.dignity-item{
+    width: 50%; 
+    margin-bottom: 20px; 
+}
+
+/* Не срабатывает */ 
+details.dignity-item summary::-webkit-details-marker{
+  display: none; 
+}
+ 
