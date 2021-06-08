@@ -1,0 +1,133 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+body{
+    background-color: #F2F2F2;
+    font-family: "Arial";
+}
+.container{
+    width: 1272px; 
+    margin: 0 auto; 
+}
+
+/* header */ 
+.main-header{
+    width: 100%; 
+    background-color: #445161;
+    padding: 25px 50px 19px 50px; 
+    color: #ffffff; 
+    box-sizing: border-box;
+}
+
+.main-header-wrap{
+    float: left; 
+    width: 650px; 
+}
+
+.main-header-wrap h1{
+    font-size: 60px; 
+    margin-bottom: 25px; 
+}
+
+.page-header-list{
+    list-style-type: none;
+    font-size: 20px; 
+    padding: 0; 
+}
+
+.page-header-list li{
+    margin-bottom: 10px; 
+    position: relative; 
+    padding: 0 0 0 20px; 
+    box-sizing: border-box;
+}
+
+.page-header-list li::before{
+    content: ""; 
+    display: block; 
+    width: 16px; 
+    height: 13px; 
+    box-sizing: border-box;
+    position: absolute; 
+    top: 5px; 
+    left: 0; 
+    background-image: url('images/Vector.svg');
+    background-size: contain; 
+}
+
+.main-header img {
+    height: 217px; 
+    width: 472px; 
+    padding-right: 50px; 
+}
+
+/* about product */ 
+.about-product{
+    padding-top: 50px; 
+     padding-left: 50px; 
+    padding-bottom: 50px; 
+    font-family: "Arial";
+    background-color: #FFF;
+     
+}
+
+.about-product-wrap{
+    float: left; 
+    width: 650px; 
+     
+}
+
+.about-product-wrap h1{
+    font-size: 30px; 
+    margin-bottom: 25px; 
+    font-family: inherit;
+}
+
+.about-product-wrap p{
+    line-height: 24px;
+    margin-bottom: 11px; 
+}
+
+ .about-product-img{
+     margin-left:30px; 
+ }
+
+
+
+/* dignity */ 
+.dignity{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items:center; 
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: #F5F5F5;;
+    
+}
+
+.dignity-title{
+ margin: 30px auto; 
+}
+
+.dignity-list{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+    width: 90%; 
+}
+
+.dignity-item{
+    width: 50%; 
+    margin-bottom: 20px; 
+}
+
+/* Не срабатывает */ 
+details.dignity-item summary::-webkit-details-marker{
+  display: none; 
+}
+ 
