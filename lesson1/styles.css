@@ -127,7 +127,40 @@ body{
 }
 
 /* Не срабатывает */ 
-details.dignity-item summary::-webkit-details-marker{
-  display: none; 
+.dignity-list summary::-webkit-details-marker {
+  display: none
 }
- 
+
+/* TODO Дописать маркеры */ 
+
+/* Screenshots */ 
+.screenshots{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.screenshots-title{
+    margin: auto; 
+}
+
+.screenshots-figures{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    width: 90%; 
+    margin-bottom: 10px; 
+}
+
+.screenshots-figures figure{
+    display: flex; 
+    flex-direction: row;
+    flex-basis: 50%; 
+    margin-bottom: 20px; 
+}
+
+.screenshots-figures figure img{
+    margin-right: 10px; 
+}
