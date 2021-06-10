@@ -208,3 +208,71 @@ body{
 .reviews .quote > p{
     font-size: 18px; 
 }
+
+/* price */ 
+.section-tarif{
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    flex-direction: column;
+    width: 100%; 
+    height: 656px; 
+    background-color: #fff; 
+}
+
+.buy-it{
+    margin-top: 30px;    
+    text-align: center;
+}
+
+.tarif h3{
+        font-size: 24px; 
+        color: #fff; 
+        text-align: center; 
+        padding: 10px; 
+}
+.tarifs{
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: flex-end; 
+    margin-right: 20px; 
+}
+
+.tarif{
+    display: flex; 
+    flex-direction: column;
+    width: 300px; 
+    border-radius: 5px;
+    background-color: #445162;
+    border: 1px solid #445162;
+}
+
+.tarif-ol{
+    /* list-style-type: none;  */
+    list-style-position:inside; 
+    padding: 20px; 
+    color: #fff; 
+    font-size: 14px; 
+    font-family: "Arial";
+    font-style: normal; 
+    line-height: 24px; 
+}
+
+.price{
+    
+    background-color: #fff;
+    width: 100%; 
+    font-size: 40px; 
+    text-align: center; 
+     padding: 10px 0 10px 0; 
+}
+
+.tarifs button{
+    width: 262px; 
+    height: 43px; 
+    background-color: #fff; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
