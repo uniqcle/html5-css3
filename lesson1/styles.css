@@ -29,6 +29,7 @@ body{
 .main-header-wrap h1{
     font-size: 60px; 
     margin-bottom: 25px; 
+    font-size: 60px; 
 }
 
 .page-header-list{
@@ -110,6 +111,8 @@ body{
 
 .dignity-title{
  margin: 30px auto; 
+ font-size: 30px; 
+ line-height: 36px; 
 }
 
 .dignity-list{
@@ -144,6 +147,8 @@ body{
 
 .screenshots-title{
     margin: 25px auto; 
+     font-size: 30px; 
+ line-height: 36px; 
 }
 
 .screenshots-figures{
@@ -176,6 +181,8 @@ body{
 
 .reviews-title{
     margin: 25px auto; 
+     font-size: 30px; 
+ line-height: 36px; 
 }
 .reviews-articles{
     display: flex; 
@@ -223,6 +230,8 @@ body{
 .buy-it{
     margin-top: 30px;    
     text-align: center;
+     font-size: 30px; 
+ line-height: 36px; 
 }
 
 .tarif h3{
@@ -279,28 +288,215 @@ body{
     width: 100%; 
 }
 
+.tarif button{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #445161;
+}
+
 /* footer */ 
 footer{
     width: 100%; 
-    height: 509px; 
+     min-height: 509px; 
      display: flex;    
-     flex-direction: column;  
      flex-wrap: wrap;  
      background-color: #445162;
-     
+     justify-content: space-around;
+     color: #fff;
+     font-size: 16px;  
+     line-height: 24px; 
+     padding-bottom: 50px; 
 }
 
 footer h2{
     width: 100%; 
-    
+     text-align: center; 
+     margin-top: 25px; 
+    font-size: 30px; 
+    line-height: 36px; 
+    font-family: inherit;
+     
 }
 
 .footer-form{
-    width: 50%; 
     display: flex; 
     flex-direction: column;
+    justify-content:space-between; 
+    width: 60%; 
+}
+
+.footer-form input{
+    padding: 15px; 
+    border-radius: 10px; 
+}
+
+.footer-form textarea{
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+ 
+
+.footer-form button{
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 30%; 
+    margin: 0 auto; 
+    color: #445162;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+ 
+.footer-ul{
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: column;
+    
+    min-height: 250px;
+}
+
+.footer-ul li{
+    position: relative; 
+    margin-bottom: 30px; 
+}
+
+.footer-ul li:nth-child(1)::before{
+    content: ""; 
+    display: block; 
+    width: 20px; 
+    height: 20px; 
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 0; 
+    left: -25px; 
+    background-image: url('images/skype.svg');
+    background-size: contain; 
+}
+ 
+ 
+.footer-ul li:nth-child(2)::before{
+    content: ""; 
+    display: block; 
+    width: 20px; 
+    height: 20px; 
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 0; 
+    left: -25px; 
+    background-image: url('images/icq.svg');
+    background-size: contain; 
+}
+
+.footer-ul li:nth-child(3)::before{
+    content: ""; 
+    display: block; 
+    width: 20px; 
+    height: 20px; 
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 0; 
+    left: -25px; 
+    background-image: url('images/mail.svg');
+    background-size: contain; 
+}
+
+.footer-ul li:nth-child(4)::before{
+    content: ""; 
+    display: block; 
+    width: 20px; 
+    height: 20px; 
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 0; 
+    left: -25px; 
+    background-image: url('images/phone.svg');
+    background-size: contain; 
+}
+
+.block-social{
+     width: 30%; 
 }
 
 .social{
-    width: 50%; 
+    list-style-type: none; 
+}
+
+.social li{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around; 
+    position: relative; 
+}
+
+.social li:nth-child(1)::before{
+    content: ""; 
+    display: block;
+    width: 45px; 
+    height: 45px; 
+    box-sizing: border-box;   
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-image: url('images/twitter.svg');
+    background-size: contain; 
+}
+
+.social li:nth-child(2)::before{
+    content: ""; 
+    display: block;
+    width: 45px; 
+    height: 45px; 
+    box-sizing: border-box;   
+    position: absolute; 
+    top: 0; 
+    left: 50px; 
+    background-image: url('images/vk.svg');
+    background-size: contain; 
+}
+
+.social li:nth-child(3)::before{
+    content: ""; 
+    display: block;
+    width: 45px; 
+    height: 45px; 
+    box-sizing: border-box;   
+    position: absolute; 
+    top: 0; 
+    left: 100px; 
+    background-image: url('images/google.svg');
+    background-size: contain; 
+}
+
+.social li:nth-child(4)::before{
+    content: ""; 
+    display: block;
+    width: 45px; 
+    height: 45px; 
+    box-sizing: border-box;   
+    position: absolute; 
+    top: 0; 
+    left: 150px; 
+    background-image: url('images/facebook.svg');
+    background-size: contain; 
+}
+
+/* copyright */ 
+
+.copyright{
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center; 
+    letter-spacing: 0.3px;
+    color: #445162;
 }
