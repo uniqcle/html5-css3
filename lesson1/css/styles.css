@@ -58,6 +58,13 @@ body{
     background-size: contain; 
 }
 
+.page-header-list li:last-child {
+    margin: 0;
+}
+.page-header-list li::before {
+    background-repeat: no-repeat;
+}
+
 .main-header img {
     height: 217px; 
     width: 472px; 
