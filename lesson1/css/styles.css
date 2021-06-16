@@ -1,6 +1,7 @@
 *{
     margin: 0; 
     padding: 0; 
+    box-sizing: border-box;
 }
 
 body{
@@ -26,10 +27,10 @@ body{
     width: 650px; 
 }
 
-.main-header-wrap h1{
+.main-header-wrap h2{
     font-size: 60px; 
     margin-bottom: 25px; 
-    font-size: 60px; 
+    line-height: 69px;
 }
 
 .page-header-list{
@@ -54,7 +55,7 @@ body{
     position: absolute; 
     top: 5px; 
     left: 0; 
-    background-image: url('images/Vector.svg');
+    background-image: url('../img/Vector.svg');
     background-size: contain; 
 }
 
@@ -137,7 +138,7 @@ body{
 }
 
 /* Не срабатывает */ 
-.dignity-list summary::-webkit-details-marker {
+.dignity-list summary::details-marker{
   display: none
 }
 
@@ -384,7 +385,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: -25px; 
-    background-image: url('images/skype.svg');
+    background-image: url('../img/skype.svg');
     background-size: contain; 
 }
  
@@ -398,7 +399,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: -25px; 
-    background-image: url('images/icq.svg');
+    background-image: url('../img/icq.svg');
     background-size: contain; 
 }
 
@@ -411,7 +412,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: -25px; 
-    background-image: url('images/mail.svg');
+    background-image: url('../img/mail.svg');
     background-size: contain; 
 }
 
@@ -424,7 +425,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: -25px; 
-    background-image: url('images/phone.svg');
+    background-image: url('../img/phone.svg');
     background-size: contain; 
 }
 
@@ -452,7 +453,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: 0; 
-    background-image: url('images/twitter.svg');
+    background-image: url('../img/twitter.svg');
     background-size: contain; 
 }
 
@@ -465,7 +466,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: 50px; 
-    background-image: url('images/vk.svg');
+    background-image: url('../img/vk.svg');
     background-size: contain; 
 }
 
@@ -478,7 +479,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: 100px; 
-    background-image: url('images/google.svg');
+    background-image: url('../img/google.svg');
     background-size: contain; 
 }
 
@@ -491,7 +492,7 @@ footer h2{
     position: absolute; 
     top: 0; 
     left: 150px; 
-    background-image: url('images/facebook.svg');
+    background-image: url('../img/facebook.svg');
     background-size: contain; 
 }
 
