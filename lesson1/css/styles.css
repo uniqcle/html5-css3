@@ -348,7 +348,10 @@ footer h2{
 
  
 
-.footer-form button{
+.footer-form .form-btn{
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
     padding: 20px; 
     border-radius: 10px; 
     width: 30%; 
@@ -362,6 +365,7 @@ footer h2{
     text-transform: uppercase;
 }
 
+ 
  
 .footer-ul{
     list-style-type: none; 
@@ -429,22 +433,31 @@ footer h2{
     background-size: contain; 
 }
 
+
 .block-social{
      width: 30%; 
 }
 
 .social{
     list-style-type: none; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -45px; 
 }
 
 .social li{
-    display: flex; 
+    /* display: flex; 
     flex-direction: row;
     justify-content: space-around; 
-    position: relative; 
+    position: relative;  */
+    font-size: 44px; 
+     
+     
 }
 
-.social li:nth-child(1)::before{
+/* .social li:nth-child(1)::before{
     content: ""; 
     display: block;
     width: 45px; 
@@ -494,7 +507,7 @@ footer h2{
     left: 150px; 
     background-image: url('../img/facebook.svg');
     background-size: contain; 
-}
+} */
 
 /* copyright */ 
 
